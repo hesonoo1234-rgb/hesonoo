@@ -10,8 +10,7 @@ body {
       width: 90%;
       margin: 0 auto;
 }
-/*文字の大きさの指定。footer以外*/
-h2 {
+h1 {
       font-size: 22px;
       margin-bottom: 8px;
       font-weight: bold;
@@ -22,7 +21,6 @@ h2 {
       padding: 16px;
       margin-bottom: 20px;
 }
-/*候補者一人ごとにある枠(中枠）*/
 .candidate-header {
       display: flex;
       gap: 12px;
@@ -51,4 +49,3 @@ footer {
       color: #555;
       margin-top: 32px;
 }
-/*説明*/
