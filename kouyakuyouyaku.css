@@ -49,3 +49,9 @@ footer {
       color: #555;
       margin-top: 32px;
 }
+.bottom-nav {
+  margin-top: 40px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
