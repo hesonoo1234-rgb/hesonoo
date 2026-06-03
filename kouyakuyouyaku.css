@@ -8,7 +8,11 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+.candidate-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 .main-content {
       max-width: 1000px;
       width: 90%;
