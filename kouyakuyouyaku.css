@@ -94,3 +94,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.double-space {
+  margin-bottom: 2em;
+}
