@@ -1,4 +1,4 @@
-$pref = Read-Host "Enter prefecture name"
+﻿$pref = Read-Host "Enter prefecture name"
 $count = [int](Read-Host "Enter number of election districts")
 
 for ($i = 1; $i -le $count; $i++) {
@@ -8,13 +8,5 @@ for ($i = 1; $i -le $count; $i++) {
 Write-Host "HTML files created."
 
 git add .
-
-Write-Host "git add completed."
-
 git commit -m "Generate $pref HTML files"
-
-Write-Host "git commit completed."
-
 git push
-
-Write-Host "git push completed."
