@@ -1,8 +1,10 @@
-$pref = Read-Host "都道府県の英語ファイル名を入力"
-$count = [int](Read-Host "選挙区数を入力")
+@'
+$pref = Read-Host "Enter prefecture name"
+$count = [int](Read-Host "Enter number of election districts")
 
 for ($i = 0; $i -le $count; $i++) {
-    New-Item -ItemType File -Name "$pref$i.html" -Force | Out-Null
+    New-Item -ItemType File -Name "$pref$i.html" -Force
 }
 
-Write-Host "$pref のファイルを $($count + 1) 個作成しました。"
+Write-Host "$pref : created $($count + 1) files."
+'@ | Set-Content -Path .\kouyaku.ps1 -Encoding UTF8
